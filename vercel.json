@@ -6,6 +6,8 @@
   "env": {
     "BUNDLE_GEMFILE": "Gemfile",
     "JEKYLL_ENV": "production",
-    "RUBY_DEBUG_LOGGER_LEVEL": "WARN"
+    "RUBY_DEBUG_LOGGER_LEVEL": "WARN",
+    "LANG": "en_US.UTF-8",
+    "LC_ALL": "en_US.UTF-8"
   }
 }

@@ -158,8 +158,7 @@ layout: default
           <hr class="hidden-sm hidden-xs" />
           <h5><a href="/tags/">特色标签</a></h5>
           <div class="tags">
-            {% for tag in site.tags %} {% if tag[1].size >
-            {{site.featured-condition-size}} %}
+            {% for tag in site.tags %} {% if tag[1].size > site.featured-condition-size %}
             <a
               href="/tags/#{{ tag[0] }}"
               title="{{ tag[0] }}"

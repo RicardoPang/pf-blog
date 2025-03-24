@@ -2,5 +2,10 @@
   "buildCommand": "jekyll build",
   "outputDirectory": "_site",
   "framework": "jekyll",
-  "installCommand": "bundle install"
+  "installCommand": "bundle install",
+  "env": {
+    "BUNDLE_GEMFILE": "Gemfile",
+    "JEKYLL_ENV": "production",
+    "RUBY_DEBUG_LOGGER_LEVEL": "WARN"
+  }
 }
